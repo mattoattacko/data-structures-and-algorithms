@@ -12,4 +12,6 @@ Write the following methods for the Linked List class:
 We used 3 different methods to insert values into our Linked Lists, while using a while loop to iterate through and get our current.next, twice. This was difficult and I needed to get help to finish it. 
 
 ## Solution
-![LinkedListInsertions](https://github.com/mattoattacko/data-structures-and-algorithms/blob/master/arrayBinarySearch/assets/BinarySearchChallenge.JPG)
+![LinkedListInsertions](https://github.com/mattoattacko/data-structures-and-algorithms/blob/master/LL_insertions/assets/LL-insertions.jpg)
+
+* I've tried fixing the solution image to face the right way up so many times. It just stays the wrong way no matter what I do. Please advise. 
