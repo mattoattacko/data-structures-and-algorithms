@@ -8,4 +8,4 @@ Write a function called BinarySearch which takes in 2 parameters: a sorted array
 We made our function w/ the sorted array and search key, then set our minimum and maximum values to use. Binary search was used to iterate through the array, and a while loop was used to find the middle index position and current number. We let it run while the minimum was less than or equal to the maximum. Once no match was found, we returned -1.
 
 ## Solution
-![arrayShift](https://github.com/mattoattacko/data-structures-and-algorithms/blob/master/arrayShift/assets/shiftArray.JPG)
+![BinarySearch](https://github.com/mattoattacko/data-structures-and-algorithms/blob/master/arrayBinarySearch/assets/BinarySearchChallenge.JPG)
