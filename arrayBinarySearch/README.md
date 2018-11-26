@@ -9,3 +9,5 @@ We made our function w/ the sorted array and search key, then set our minimum an
 
 ## Solution
 ![BinarySearch](https://github.com/mattoattacko/data-structures-and-algorithms/blob/master/arrayBinarySearch/assets/BinarySearchChallenge.JPG)
+
+I've tried multiple times to fix the picture displaying the wrong way, but I give up. It always inserts sideways, no matter what I do. 
