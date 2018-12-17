@@ -3,7 +3,7 @@
 let featuredTask = module.exports = {};
 
 featuredTask.multiBracketValidation = (input) => {
-  let bracket = 0;
+  let multiBracket = 0;
   let string = input;
   let stringSplit = string.split('');
 
@@ -13,13 +13,13 @@ featuredTask.multiBracketValidation = (input) => {
   //confirm with someone
   for(let a = 0; a < stringSplit.length; a++) {
     if (stringSplit[a] === '[' || stringSplit[a] === '(' || stringSplit[a] === '{') {
-      bracket++;
+      multiBracket++;
     }
     if (stringSplit[a] === ']' || stringSplit[a] === ')' || stringSplit[a] === '}') {
-      bracket--;
+      multiBracket--;
     }
   }
-  if (bracket === 0) {
+  if (multiBracket === 0) {
     return true;
   } else {
     return false;
