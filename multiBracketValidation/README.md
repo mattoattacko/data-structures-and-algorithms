@@ -1,5 +1,5 @@
 # Multi-bracket Validation.
-<!-- Short summary or background information -->
+Code Challenge 13 
 
 ## Challenge
 On your main file, create…
@@ -14,7 +14,8 @@ Curly Brackets : {}
 Write at least three test assertions for each method that you define.
 
 ## Approach & Efficiency
-<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+We decided to use a simple for loop to iterate a split sring, checking each ones value to the index. If we were given any of the [{( or instead )}] characters, we added/subtracted one to the counter respectively. If, at the end, we see that we got to zero on our counter, we knew that everything was "balanced". If we didn't hit zero, we knew it wasn't balanced and would recieve false. It's a dope solution. 
 
 ## Solution
-<!-- Embedded whiteboard image -->
+Not sure why this dang image won't rotate correctly...
+![alt text](https://github.com/mattoattacko/data-structures-and-algorithms/blob/master/multiBracketValidation/assets/multiBracketValidation.JPG)
