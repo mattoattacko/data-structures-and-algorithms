@@ -12,7 +12,7 @@ Implement a simplified LEFT JOIN for 2 Hashmaps.
 ## Approach & Efficiency
 I worked on this challenge with Ashley and Brandon.
 
-
+We create a return object to hold our key value pairs. We have an array that is constructed from one of our inputs. We use a `for loop` to iterate through the key array. Each key it iterates through is stored in a variable, and that variable is used to accessed both of the input maps. A value missing will result in `null`. Our first variable will have all the keys from map one. 
 
 ## Solution
 ![alt text](https://github.com/mattoattacko/data-structures-and-algorithms/blob/master/leftJoin/assets/leftJoin_whiteboard.jpg "Whiteboard for Code Challenge 28")
