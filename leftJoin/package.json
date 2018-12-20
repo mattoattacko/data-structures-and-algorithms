@@ -1,0 +1,16 @@
+{
+  "name": "leftjoin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "left-join.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matthew McQuain",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "hashmap": "^2.3.0",
+    "jest": "^23.6.0"
+  }
+}
