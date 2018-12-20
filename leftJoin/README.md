@@ -10,7 +10,9 @@ Implement a simplified LEFT JOIN for 2 Hashmaps.
 * The returned data structure that holds the results is up to you. It doesn’t need to exactly match the output below, so long as it achieves the LEFT JOIN logic.
 
 ## Approach & Efficiency
-<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+I worked on this challenge with Ashley and Brandon.
+
+
 
 ## Solution
-<!-- Embedded whiteboard image -->
+![alt text](https://github.com/mattoattacko/data-structures-and-algorithms/blob/master/leftJoin/assets/leftJoin_whiteboard.jpg "Whiteboard for Code Challenge 28")
