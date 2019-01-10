@@ -16,5 +16,5 @@ Implement a Hashtable with the following capabilities:
 * The method/function `add` hashs the K/V pair to our hashtable.
 * The method/function `Find` uses the key to return the K/V pair.
 * The method/function `contains` checks to see if the key portion of the K/V pair is in our hashtable.
-* The method/function `GetHash` takes a key and returns the indexin the array that the key is stored
+* The method/function `GetHash` uses the key to return the location of said key in the array. 
 * Extra stuff! The method/function `delete` it is removing a node from the linked list at this.map[hash], using the key as a search value through the linked list. 
