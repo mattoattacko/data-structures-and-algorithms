@@ -10,7 +10,11 @@ Implement a Hashtable with the following capabilities:
 * A method/function named `GetHash` that takes in a key and returns the index in the array the key is stored.
 
 ## Approach & Efficiency
-<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+* I implimented some of the ideas that Ashley and Brandon helped me with. Time Big(O) is O(n). Space should be O(1)...hopefully. 
 
 ## API
-<!-- Description of each method publicly available in each of your hashtable -->
+* The method/function `add` hashs the K/V pair to our hashtable.
+* The method/function `Find` uses the key to return the K/V pair.
+* The method/function `contains` checks to see if the key portion of the K/V pair is in our hashtable.
+* The method/function `GetHash` takes a key and returns the indexin the array that the key is stored
+* Extra stuff! The method/function `delete` it is removing a node from the linked list at this.map[hash], using the key as a search value through the linked list. 
