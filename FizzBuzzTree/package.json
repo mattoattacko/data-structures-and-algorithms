@@ -1,0 +1,16 @@
+{
+  "name": "fizzbuzztree",
+  "version": "1.0.0",
+  "description": "* Conduct “FizzBuzz” on a tree while traversing through it. Change the values of each of the nodes dependent on the current node’s value",
+  "main": "fizz-buzz-tree.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
+  "author": "Matthew McQuain",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "jest": "^23.6.0"
+  }
+}
