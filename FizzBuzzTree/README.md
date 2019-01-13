@@ -14,7 +14,9 @@
 * For explicitly-typed languages: Ensure your node values are of type `Object`, to hold either strings or integers.
 
 ## Approach & Efficiency
-<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+* Traversal through the fizz-buzz-tree is done by checking each of the values we are given from `numbersArray`. A check is done to see if the number given from `numbersArray` are divisible by either 3, 5, or both 3 and 5. If the number is divisible by 3, we insert "Fizz" instead. This is done in a new tree `insertedArray`. Numbers divisible by 5 are replaced with "Buzz", and numbers divisible by both return "FizzBuzz". 
+
+* Space bigO = O(n). Time bigO = O(n).
 
 ## Solution
-<!-- Embedded whiteboard image -->
+![fizzbuzztree whiteboard](fizz-buzz-tree.jpg)
