@@ -19,4 +19,6 @@
 * Space bigO = O(n). Time bigO = O(n).
 
 ## Solution
-![fizzbuzztree whiteboard](fizz-buzz-tree.jpg)
+(I don't remotely understand why my pictures always upload exactly the opposite way that I want them to)
+
+![fizzbuzztree whiteboard](https://github.com/mattoattacko/data-structures-and-algorithms/blob/master/FizzBuzzTree/assets/fizz-buzz-tree.JPG)
