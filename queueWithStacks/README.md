@@ -12,4 +12,4 @@
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
 
 ## Solution
-<!-- Embedded whiteboard image -->
+![Code Challenge 11](https://github.com/mattoattacko/data-structures-and-algorithms/blob/master/queueWithStacks/assets/whiteboard-codechallenge-11.JPG)
