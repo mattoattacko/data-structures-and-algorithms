@@ -9,7 +9,12 @@
 * The `Stack` instances have only `push`, `pop`, and `peek` methods. You should use your own Stack implementation. Instantiate these Stack objects in your PseudoQueue constructor.
 
 ## Approach & Efficiency
-<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+* I was stuck so I had some help from classmates.
+* We created two sperate stacks, and used `push` to get  all of the values given into the first stack `stackOne` (used for enqueue).
+* We used `pop` to get the values from `stackOne` and moved them into `stackTwo` (used for dequeue).
+* Process was repeated until all of the values were taken from `stackOne` and placed into `stackTwo`, leaving no values in `stackOne`.
+* The value of `stackTwo` is returned.
+* Time = O(2n) & Space = O(2n).
 
 ## Solution
 ![Code Challenge 11](https://github.com/mattoattacko/data-structures-and-algorithms/blob/master/queueWithStacks/assets/whiteboard-codechallenge-11.JPG)
