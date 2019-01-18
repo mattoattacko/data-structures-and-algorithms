@@ -1,74 +1,93 @@
 'use strict';
 
-// Testing Chris idea for testing
-
-const Stack = require('../queue-stacks.js');
-const Queue = require('../queue-with-stacks.js');
+let Stacks = require('../queue-stacks.js');
+let QueueWithStacks = require('../queue-with-stacks.js');
 
 describe('Stacks', () => {
-  it('can create and empty stack', () => {
-    let stack = new Stack;
-    expect(stack).toBeInstanceOf(Object);
-  });
-  it('can push a new node', () => {
-    let stack = new Stack;
-    stack.push(1);
-    expect(stack.top.value).toBe(1);
-  });
-  it('adds new nodes to the top', () => {
-    let stack = new Stack;
-    stack.push(1);
-    stack.push(2);
-    expect(stack.top.value).toBe(2);
-  });
-  it('can pop from top of stack', () => {
-    let stack = new Stack;
-    stack.push(1);
-    stack.push(2);
-    expect(stack.top.value).toBe(2);
-    stack.pop();
-    expect(stack.top.value).toBe(1);
-  });
-  it('can peek the top node', () => {
-    let stack = new Stack;
-    stack.push(1);
-    stack.push(2);
-    expect(stack.top.value).toBe(2);
-    stack.peek();
-    expect(stack.top.value).toBe(2);
+  xit('Stack Constructor will be null', ()=> {
+    let stack = new Stacks();
+    expect(stack.top).toBeNull();
   });
 });
-describe('Queues', () => {
-  it('can create an empty queue', () => {
-    let queue = new Queue;
-    expect(queue).toBeInstanceOf(Object);
-    expect(queue.enqueue).toBeDefined();
+
+describe('Push', () => {
+  xit('The stacks push() function will add a new item to the top of the stack', ()=> {
+    let stack = new Stacks();
+    stack.push(1);
+    expect(stack.top.value).toBe(1);
+    stack.push(2);  
+    expect(stack.top.value).toBe(2);
+    stack.push(3);  
+    expect(stack.top.value).toBe(3);  
+    stack.push(4); 
+    expect(stack.top.value).toBe(4);
+    console.log(stack);
   });
-  it('can enqueue a node', () => {
-    let queue = new Queue;
+});
+  
+describe('Pop', () => {
+  xit('The stacks pop() function will remove the top value from a stack', ()=> {
+    let stack = new Stacks();
+    stack.push(1);
+    expect(stack.top.value).toBe(1);
+    stack.push(2);  
+    expect(stack.top.value).toBe(2);
+    stack.push(3);  
+    expect(stack.top.value).toBe(3);  
+    stack.push(4); 
+    expect(stack.top.value).toBe(4);
+    stack.pop();
+    expect(stack.top.value).toBe(3);
+  });
+});
+  
+describe('Peek - Stacks', () => {
+  xit('The stacks peek() function will return the top value', ()=> {
+    let stack = new Stacks();
+    stack.push(1);
+    expect(stack.top.value).toBe(1);
+    stack.push(2);  
+    expect(stack.top.value).toBe(2);
+    stack.push(3);  
+    expect(stack.top.value).toBe(3);  
+    stack.push(4); 
+    expect(stack.top.value).toBe(4);
+    let stackpeek = stack.peek();
+    expect(stackpeek.value).toBe(4);
+  });
+});
+  
+describe('Queue with Stacks', () => {
+  xit('pseudoQueue Constructor will be null', ()=> {
+    let queue = new QueueWithStacks();
+    expect(queue.front).toBeNull();
+  });
+});
+
+describe('Enqueue', () => {
+  xit('The enqueue() function will add a new item to the front of the queue', ()=> {
+    let queue = new QueueWithStacks();
     queue.enqueue(1);
     expect(queue.front.value).toBe(1);
+    queue.enqueue(2);
+    expect(queue.front.value).toBe(2);
+    queue.enqueue(3);
+    expect(queue.front.value).toBe(3);
+    queue.enqueue(4);
+    expect(queue.front.value).toBe(4);
   });
-  it('can add multiple nodes', () => {
-    let queue = new Queue;
+});
+
+describe('Dequeue', () => {
+  it('The dequeue() function reverse the order of the stack and then pop the value', ()=> {
+    let queue = new QueueWithStacks();
     queue.enqueue(1);
     queue.enqueue(2);
-    expect(queue.length).toBe(2);
-  });
-  it('dequeues first-in first-out', () => {
-    let queue = new Queue;
-    queue.enqueue(1);
-    queue.enqueue(2);
-    let results = queue.dequeue();
-    expect(results.value).toBe(1);
-    expect(queue.length).toBe(1);
-  });
-  it('can peek the front of the queue', () => {
-    let queue = new Queue;
-    queue.enqueue(1);
-    queue.enqueue(2);
-    let results = queue.peek();
-    expect(results.value).toBe(1);
-    expect(queue.length).toBe(2);
+    queue.enqueue(3);
+    queue.enqueue(4);
+    console.log('enqueue queue', queue);
+    queue.dequeue();
+    console.log('new queue', queue);
+    expect(queue.front.value).toBe(4);
   });
 });
