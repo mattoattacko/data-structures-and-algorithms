@@ -9,7 +9,7 @@
 
 ## Approach & Efficiency
 * I worked with a tutor and got help from Ashley as I was extremely confused how to proceed. 
-* I used enqueue to an an animal to a new queue. A dequeue function was used to check if our preference is cat (or dog).
+* I used enqueue to add an animal to a new queue. A dequeue function was used to check if our preference is cat (or dog).
 * find() was used to located the earliest instance of cat.
 * We used dequeue to again check if our pref was dog, and used find() to locate the earliest instance of dog.
 * If our preference was neither dog nor cat, the earliest of either dog or cat is returned. 
