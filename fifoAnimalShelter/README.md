@@ -15,4 +15,4 @@
 * If our preference was neither dog nor cat, the earliest of either dog or cat is returned. 
 
 ## Solution
-![Animal Shelter Whiteboard]()
+![Animal Shelter Whiteboard](https://github.com/mattoattacko/data-structures-and-algorithms/blob/master/fifoAnimalShelter/assets/fifo-whiteboard.JPG)
