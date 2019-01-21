@@ -8,7 +8,11 @@
 * dequeue(pref): returns either a dog or a cat. If pref is not "dog" or "cat" then return null.
 
 ## Approach & Efficiency
-<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+* I worked with a tutor and got help from Ashley as I was extremely confused how to proceed. 
+* I used enqueue to an an animal to a new queue. A dequeue function was used to check if our preference is cat (or dog).
+* find() was used to located the earliest instance of cat.
+* We used dequeue to again check if our pref was dog, and used find() to locate the earliest instance of dog.
+* If our preference was neither dog nor cat, the earliest of either dog or cat is returned. 
 
 ## Solution
-<!-- Embedded whiteboard image -->
+![Animal Shelter Whiteboard]()
