@@ -4,7 +4,7 @@ let Stacks = require('../queue-stacks.js');
 let QueueWithStacks = require('../queue-with-stacks.js');
 
 describe('Stacks', () => {
-  xit('Stack Constructor will be null', ()=> {
+  it('Stack Constructor will be null', ()=> {
     let stack = new Stacks();
     expect(stack.top).toBeNull();
   });
@@ -56,13 +56,26 @@ describe('Peek - Stacks', () => {
     expect(stackpeek.value).toBe(4);
   });
 });
-  
+
+// pseudoQueue Constructor from queue-with-stacks.js
 describe('Queue with Stacks', () => {
-  it('pseudoQueue Constructor will be null', ()=> {
+  it('pseudoQueue Constructor is null', ()=> {
     let queue = new QueueWithStacks();
-    expect(queue.front).toBeNull();
+    expect(queue.front).toBeUndefined(); //.toBeNull
   });
 });
+
+
+
+// describe('Stacks', () => {
+//   xit('Stack Constructor will be null', ()=> {
+//     let stack = new Stacks();
+//     expect(stack.top).toBeNull();
+//   });
+// });
+
+
+
 
 describe('Enqueue', () => {
   it('The enqueue() function will add a new item to the front of the queue', ()=> {

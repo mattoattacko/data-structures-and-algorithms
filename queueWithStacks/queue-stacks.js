@@ -3,7 +3,7 @@
 const LinkedList = require('./linkedlist.js');
 const Node = require('./node.js');
 
-class QueueStack {
+class Stacks {
   constructor () {
     this.top = null;
     this.storage = new LinkedList();
@@ -29,4 +29,4 @@ class QueueStack {
   }
 }
 
-module.exports = QueueStack;
+module.exports = Stacks;
