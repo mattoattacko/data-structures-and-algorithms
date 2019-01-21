@@ -15,4 +15,4 @@
 * Matching elements were noted and returned. We repeated this until the entire array.length was complete. 
 
 ## Solution
-![Repeated Word Whiteboard](../assets/repeated-word-whiteboard.JPG)
+![Repeated Word Whiteboard](https://github.com/mattoattacko/data-structures-and-algorithms/blob/master/repeatedWord/assets/repeated-word-whiteboard.JPG)
