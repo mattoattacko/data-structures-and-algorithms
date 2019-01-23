@@ -61,21 +61,9 @@ describe('Peek - Stacks', () => {
 describe('Queue with Stacks', () => {
   it('pseudoQueue Constructor is null', ()=> {
     let queue = new QueueWithStacks();
-    expect(queue.front).toBeUndefined(); //.toBeNull
+    expect(queue.top).toBeNull(); //.toBeUndefined works...
   });
 });
-
-
-
-// describe('Stacks', () => {
-//   xit('Stack Constructor will be null', ()=> {
-//     let stack = new Stacks();
-//     expect(stack.top).toBeNull();
-//   });
-// });
-
-
-
 
 describe('Enqueue', () => {
   it('The enqueue() function will add a new item to the front of the queue', ()=> {
