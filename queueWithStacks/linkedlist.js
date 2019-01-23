@@ -39,7 +39,7 @@ class LinkedList {
     let current = this.head;
     let previous = null;
     if (!this.head) {
-      return 'This Linked List is empty';
+      return 'deleteFromEnd Linked List is empty';
     }
 
     while(current.next) {
@@ -47,7 +47,7 @@ class LinkedList {
       current = current.next;
     }
     current = previous;
-    console.log('current', current);
+    // console.log('current', current);
     current.next = null;
     this.tail = previous;
     return current;
@@ -55,7 +55,7 @@ class LinkedList {
 
   deleteFromFront() {
     if (!this.head) {
-      return 'This Linked List is empty';
+      return 'deleteFromFront Linked List is empty';
     }
     let previous = this.head;
     this.head = this.head.next;
@@ -72,7 +72,7 @@ class LinkedList {
 
   getFirstValue() {
     if (!this.head) {
-      return 'This Linked List is empty';
+      return 'getFirstValue Linked List is empty';
     }
     return this.head;
   }

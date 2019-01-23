@@ -1,11 +1,11 @@
 'use strict';
 
-const Stack = require('./queue-stacks.js');
+const Stacks = require('./queue-stacks.js');
 
 class PseudoQueue {
   constructor () {
-    this.stackOne = new Stack();
-    this.stackTwo = new Stack();
+    this.stackOne = new Stacks();
+    this.stackTwo = new Stacks();
   }
 
   enqueue(value) {

@@ -5,15 +5,16 @@
   "main": "index.js",
   "dependencies": {
     "eslint": "^5.9.0",
+    "express": "^4.16.4",
     "jest": "^23.6.0",
     "lint": "^1.1.2"
   },
   "devDependencies": {},
   "scripts": {
-      "start": "node index.js",
-      "lint": "eslint **/*.js",
-      "test": "jest --verbose",
-      "test-watch": "jest --verbose --watchAll"
+    "start": "node index.js",
+    "lint": "eslint **/*.js",
+    "test": "jest --verbose",
+    "test-watch": "jest --verbose --watchAll"
   },
   "author": "Matthew McQuain",
   "license": "ISC"
