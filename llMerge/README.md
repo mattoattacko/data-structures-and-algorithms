@@ -11,4 +11,4 @@
  and S=O(1).
  
 ## Solution
-![whiteboarding](whiteboard)
+![whiteboarding](https://github.com/mattoattacko/data-structures-and-algorithms/blob/master/llMerge/assets/ll_merge_whiteboard.JPG)
