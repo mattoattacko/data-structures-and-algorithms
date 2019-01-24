@@ -20,15 +20,12 @@ class LinkedList {
     current.next = node;
     return this;
   }
-
   mergeLists(linkedListOne,linkedListTwo) {
     if (linkedListOne == null) return linkedListTwo;
     if (linkedListTwo == null) return linkedListOne;
-
     let linkedListThree = new LinkedList();
     let whereAreWeOne = linkedListOne.head;
     let whereAreWeTwo = linkedListTwo.head;
-
     while(whereAreWeOne || whereAreWeTwo) {
       linkedListThree.append(whereAreWeOne.value);
       whereAreWeOne = whereAreWeOne.next;
