@@ -17,4 +17,4 @@
 * Time = O(2n) & Space = O(2n).
 
 ## Solution
-![Code Challenge 11](https://github.com/mattoattacko/data-structures-and-algorithms/blob/master/queueWithStacks/assets/whiteboard-codechallenge-11.JPG)
+![Code Challenge 11 Whiteboard Picture](https://github.com/mattoattacko/data-structures-and-algorithms/blob/master/queueWithStacks/assets/whiteboard-codechallenge-11.JPG)
